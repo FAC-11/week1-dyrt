@@ -1,3 +1,4 @@
+
 *{
   box-sizing: border-box;
 }
@@ -34,4 +35,12 @@ margin-bottom: 5% ;
 
 .member img {
   max-width : 100%;
+}
+
+.navbar__li  {
+  display: inline;
+  color : red;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
