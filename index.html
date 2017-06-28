@@ -57,7 +57,11 @@
 
    <h1> We are DYRT</h1>
    <img src= "#" alt="holler"> </img>
-   <form  action="/action_page.php" method="get">
+
+  <!-- Plan A : submit via clever gdocs script: -->
+  <form action="https://script.google.com/macros/s/AKfycbyXzsiM6lV4cYmfdi0NwGPtZ8Y_Yjd6EHI0VHCmORg-wjijdbQ/exec" method="POST" id="gform">
+
+
      <label>
        Name: <input type="text" name="name"><br>
      </label>
@@ -67,9 +71,10 @@
      <label>
        Your message to us: <input type="textbox" name="message"><br>
      </label>
-     
+
      <button type="submit" value="Submit"> Talk to us! </button>
 
+</form>
 
    </form>
 
