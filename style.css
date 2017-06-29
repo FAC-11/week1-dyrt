@@ -27,13 +27,16 @@ h3 {
 body {
   margin: 0;
   margin-top: 3rem;
-
 }
 
 section {
   padding-top: 3rem;
   min-height: 100vh;
+}
 
+.header--section {
+  padding-top:  6rem;
+  min-height: 100vh;
 }
 
 #about-us {
@@ -45,9 +48,8 @@ section {
   z-index: -1;
 }
 
-
-#about-us article {
-  padding-top: 3rem;
+#about-us header {
+  padding-top: 6rem;
 }
 
 #about-us img{
