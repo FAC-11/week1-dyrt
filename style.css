@@ -35,7 +35,7 @@ section {
 }
 
 .header--section {
-  padding-top: 3rem;
+  padding-top:  6rem;
   min-height: 100vh;
 }
 
@@ -48,9 +48,8 @@ section {
   z-index: -1;
 }
 
-
-#about-us article {
-  padding-top: 3rem;
+#about-us header {
+  padding-top: 6rem;
 }
 
 #about-us img{
