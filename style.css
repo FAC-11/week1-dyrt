@@ -69,7 +69,7 @@ nav {
 nav ul {
 display: flex ;
 justify-content: space-around;
-padding: 1rem;
+padding: 0;
 margin: 0;
 
 }
@@ -79,7 +79,12 @@ margin: 0;
   color : red;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 1rem;
+}
+
+.navbar__li a {
+    margin: inherit;
+    padding: inherit;
 }
 
 .navbar__li a:link  {
