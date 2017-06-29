@@ -24,9 +24,7 @@ h3 {
 
 
 body {
-  margin: 0 auto ;
-
-
+  margin: 0;
 
 }
 
@@ -50,8 +48,6 @@ section {
 
 #about-us img{
 max-width: 90% ;
-
-
 }
 
 #team-members {
@@ -81,7 +77,7 @@ margin-bottom: 5% ;
 .member img {
   width : 100%;
   max-width: 300px;
-  
+  border-radius: 5em;
 }
 
 nav {
@@ -140,38 +136,6 @@ margin: 0;
 
 
 #contact {
-  padding-left: 5rem;
-  background-color: #000000;
+  background-color: #00819e;
   color: #E5E7E9;
-}
-
-.contact-label {
-  text-align: left;
-  width: 10rem;
-  display: inline-block;
-  margin: 0;
-  margin-bottom: 1rem;
-}
-
-.contact-input{
-  float: right ;
-}
-
-form {
-width: 80% ;
-background-color: red;
-}
-@media screen  (min-width: 600px )  {
-
-  form {
-    width: 50%;
-}
-
-}
-
-.clearfix {
-  overflow: auto;
-}
-.submit-button{
-  clear:both;
 }
