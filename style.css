@@ -1,15 +1,51 @@
 
 *{
   box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+
+body {
+  margin: 0 auto ;
+
+
+
+}
+
+section {
+  padding-top: 3rem;
+  min-height: 100vh;
+
 }
 
 #about-us {
-  border: 4px solid red;
+  border: none;
   text-align: center;
-  background-color: #bde2ff;
+  background-color: #00819e;
+  color: #ffffff;
+}
 
 
-
+#about-us article {
+  padding-top: 3rem;
 }
 
 #about-us img{
@@ -19,9 +55,9 @@ max-width: 90% ;
 }
 
 #team-members {
-  border: 4px solid blue;
+  border: none;
   text-align: center;
-  background-color: #caccff;
+  background-color: #ffffff;
 
 
 }
@@ -34,7 +70,7 @@ justify-content: space-around;
 }
 
 .member {
-  border: 4px solid green;
+  border: none;
 width: 40% ;
 
 text-align: center;
@@ -45,11 +81,23 @@ margin-bottom: 5% ;
 .member img {
   width : 100%;
   max-width: 300px;
+  
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 0;
+  margin: 0;
 }
 
 nav ul {
-display:flex ;
+display: flex ;
 justify-content: space-around;
+padding: 0;
+margin: 0;
 
 }
 
@@ -58,14 +106,72 @@ justify-content: space-around;
   color : red;
     list-style-type: none;
     margin: 0;
-    padding: 0;
-
+    padding: 1rem;
 }
 
-nav {
-  background-color: #baace8 ;
+.navbar__li a {
+    margin: inherit;
+    padding: inherit;
 }
+
+.navbar__li a:link  {
+  color: #ffffff;
+  background-color: #000000;
+  text-decoration: none;
+}
+
+.navbar__li a:visited   {
+  color: #ffffff;
+  background-color: #000000;
+  text-decoration: none;
+}
+
+.navbar__li a:hover  {
+  text-decoration: none;
+  background-color: #00819e;
+}
+
+.navbar__li a:active   {
+  text-decoration: none;
+  background-color: #00c1de;
+}
+
+
+
 
 #contact {
-  background-color: #dfbdff;
+  padding-left: 5rem;
+  background-color: #000000;
+  color: #E5E7E9;
+}
+
+.contact-label {
+  text-align: left;
+  width: 10rem;
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.contact-input{
+  float: right ;
+}
+
+form {
+width: 80% ;
+background-color: red;
+}
+@media screen  (min-width: 600px )  {
+
+  form {
+    width: 50%;
+}
+
+}
+
+.clearfix {
+  overflow: auto;
+}
+.submit-button{
+  clear:both;
 }
