@@ -1,6 +1,11 @@
 
 *{
   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
 }
 
 #about-us {
@@ -67,5 +72,6 @@ nav {
 }
 
 #contact {
-  background-color: #dfbdff;
+  background-color: #00819e;
+  color: #E5E7E9;
 }
