@@ -10,15 +10,16 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: 4rem;
+  margin-top: 0;
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 2.5rem;
 }
 
 h3 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 
 
@@ -38,9 +39,11 @@ section {
   text-align: center;
   background-color: #00819e;
   color: #ffffff;
+}
 
 
-
+#about-us article {
+  padding-top: 3rem;
 }
 
 #about-us img{
