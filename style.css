@@ -9,7 +9,9 @@ h1, h2, h3 {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto ;
+
+
 
 }
 
@@ -118,6 +120,38 @@ margin: 0;
 
 
 #contact {
-  background-color: #00819e;
+  padding-left: 5rem;
+  background-color: #000000;
   color: #E5E7E9;
+}
+
+.contact-label {
+  text-align: left;
+  width: 10rem;
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.contact-input{
+  float: right ;
+}
+
+form {
+width: 80% ;
+background-color: red;
+}
+@media screen  (min-width: 600px )  {
+
+  form {
+    width: 50%;
+}
+
+}
+
+.clearfix {
+  overflow: auto;
+}
+.submit-button{
+  clear:both;
 }
