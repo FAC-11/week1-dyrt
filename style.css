@@ -1,7 +1,7 @@
 
 *{
   box-sizing: border-box;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', serif;
 }
 
 h1, h2, h3 {
@@ -117,7 +117,8 @@ margin: 0;
   color : red;
     list-style-type: none;
     margin: 0;
-    padding: 1rem;
+    padding: 1rem 0.4rem;
+    font-size: 0.8rem;
 }
 
 .navbar__li a {
@@ -147,6 +148,12 @@ margin: 0;
   background-color: #00c1de;
 }
 
+@media only screen and (min-width: 380px )  {
+  .navbar__li {
+      font-size: 1rem;
+  }
+
+}
 
 
 
