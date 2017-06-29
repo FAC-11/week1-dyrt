@@ -1,12 +1,27 @@
 
 *{
   box-sizing: border-box;
-  font-family: 'Raleway', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 h1, h2, h3 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
 }
+
+h1 {
+  font-size: 4rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
 
 body {
   margin: 0 auto ;
@@ -17,16 +32,20 @@ body {
 
 section {
   padding-top: 3rem;
+  min-height: 100vh;
 
 }
 
 #about-us {
-  border: 4px solid red;
+  border: none;
   text-align: center;
-  background-color: #bde2ff;
+  background-color: #00819e;
+  color: #ffffff;
+}
 
 
-
+#about-us article {
+  padding-top: 3rem;
 }
 
 #about-us img{
@@ -36,9 +55,9 @@ max-width: 90% ;
 }
 
 #team-members {
-  border: 4px solid blue;
+  border: none;
   text-align: center;
-  background-color: #caccff;
+  background-color: #ffffff;
 
 
 }
@@ -51,7 +70,7 @@ justify-content: space-around;
 }
 
 .member {
-  border: 4px solid green;
+  border: none;
 width: 40% ;
 
 text-align: center;
@@ -62,6 +81,7 @@ margin-bottom: 5% ;
 .member img {
   width : 100%;
   max-width: 300px;
+  
 }
 
 nav {
@@ -108,12 +128,12 @@ margin: 0;
 
 .navbar__li a:hover  {
   text-decoration: none;
-  background-color: #baace8;
+  background-color: #00819e;
 }
 
 .navbar__li a:active   {
   text-decoration: none;
-  background-color: #655774;
+  background-color: #00c1de;
 }
 
 
