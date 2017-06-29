@@ -73,10 +73,10 @@ Credit for all code in the project is due to:
 
 
  - Dak - Learned About:
-  1) Git and github: Make frequent small commits
-2) Dont merge your own pull requests
-3) I learnt about the css unit 'vh' which allows you to size elements relative to the viewport height
-4) I learnt that you can set up forms without having a backend
+Git and github: Make frequent small commits
+Don't merge your own pull requests
+I learnt about the css unit 'vh' which allows you to size elements relative to the viewport height
+I learnt that you can set up forms without having a backend
 using eg formspree or a google script
 
  - Rachael - Learned about:
@@ -84,19 +84,19 @@ css font-weight: can be normal; bold; or if you want it to be bolder 800; or eve
 to carry over styling from parent div, try margin: inherit; padding: inherit;
 to carry over styling from parent div, try margin: inherit; padding: inherit;
 for a child with position:relative , the parent must be ‘positioned’: so the parent should have the tag position:absolute
-to test on different screen sizes, try this (link)[http://cybercrab.com/screencheck/]
+to test on different screen sizes, try this link: http://cybercrab.com/screencheck/
 to test on different screen sizes, try this link
 check the different pairs are on different branches
 
  - Yahia - Learned:
- Cemented use of git on the terminal . Learnt some new commands including:
+  Cemented use of git on the terminal . Learnt some new commands including:
 	git commit -am "message" adds and commits in one command.
-   git branch -a command lists all branches including hidden ones.
-  2) Learned that serif means fonts with flicks on the ends and sans serif is without this.
-  3) Use of Flexbox: Learned more on how to use it, in particular with its use on containers. Learned that whenever you have multiple lines of flex, use flex-wrap to move the lines down.
-  4) CSS selectors and semantic html - Learned more about the semantics of html websites, and how to structure them. Learned about the space selector for child elements. .
-  Learned about creating readme's, and about lisences. In short - GPL -  The entire purpose of this license is to make it impossible for someone who uses the code to make changes that they do not then make available freely and openly. The software a person produces must also be open source.  
-  BSD and MIT are permissive lisences that have been tested in court.  They are the most 'open source' and require little effort to comply with. To comply with these licenses, the person or organisation using the code simply has to reproduce the license and copyright notice. Otherwise, they may do as they wish with the code, including bundling it up and selling it as-is.
+  git branch -a command lists all branches including hidden ones.
+  Learned that serif means fonts with flicks on the ends and sans serif is without this.
+  Use of Flexbox: Learned more on how to use it, in particular with its use on containers. Learned that whenever you have multiple lines of flex, use flex-wrap to move the lines down.
+  CSS selectors and semantic html - Learned more about the semantics of html websites, and how to structure them. Learned about the space selector for child elements. .
+  Learned about creating readme's, and about licenses. In short - GPL -  The entire purpose of this license is to make it impossible for someone who uses the code to make changes that they do not then make available freely and openly. The software a person produces must also be open source.  
+  BSD and MIT are permissive licences that have been tested in court.  They are the most 'open source' and require little effort to comply with. To comply with these licenses, the person or organisation using the code simply has to reproduce the license and copyright notice. Otherwise, they may do as they wish with the code, including bundling it up and selling it as-is.
 
 
 
