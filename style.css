@@ -12,6 +12,7 @@ h1, h2, h3 {
 h1 {
   font-size: 4rem;
   margin-top: 0;
+  padding-bottom: 12rem;
 }
 
 h2 {
@@ -25,6 +26,7 @@ h3 {
 
 body {
   margin: 0;
+  margin-top: 3rem;
 
 }
 
@@ -39,6 +41,8 @@ section {
   text-align: center;
   background-color: #00819e;
   color: #ffffff;
+  position: relative;
+  z-index: -1;
 }
 
 
@@ -48,6 +52,16 @@ section {
 
 #about-us img{
 max-width: 90% ;
+}
+
+.faces {
+  height: 100px;
+  background-image: url(./pictures/faces.jpg);
+  background-repeat: repeat-x;
+  background-size: 400px 100px;
+  position: absolute;
+  bottom: 3rem;
+  width: 100%;
 }
 
 #team-members {
@@ -87,6 +101,7 @@ nav {
   background-color: #000000;
   padding: 0;
   margin: 0;
+  margin-top: -3rem;
 }
 
 nav ul {
