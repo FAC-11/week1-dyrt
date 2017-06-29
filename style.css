@@ -191,6 +191,7 @@ margin: 0;
 
 form {
     max-width: 160px;
+    overflow: auto;
 }
 @media only screen and (min-width: 500px )  {
 
@@ -218,4 +219,8 @@ form {
 }
 .submit-button:hover {
   background-color: #19e1ff;
+}
+
+.info {
+  clear: both;
 }
