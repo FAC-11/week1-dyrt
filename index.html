@@ -80,24 +80,29 @@
       Contact us
    </h2>
 
-   <form action="https://formspree.io/dyrtdevelopers@gmail.com" method="POST">
+   <form class="clearfix" action="https://formspree.io/dyrtdevelopers@gmail.com" method="POST">
 
   <!-- Plan A : submit via clever gdocs script:
   <form action="https://script.google.com/macros/s/AKfycbyXzsiM6lV4cYmfdi0NwGPtZ8Y_Yjd6EHI0VHCmORg-wjijdbQ/exec" method="POST" id="gform">
     <!-- Plan B : submit via formspree.io:
     <form action="https://formspree.io/your@email.com" method="POST"> -->
 
-     <label for="your-name">
-       Name: <input type="text" name="name" id="your-name"><br>
+     <label class="contact-label" for="your-name">
+          Name:
      </label>
-     <label for="your-email">
-       email (required): <input type="email" name="email" id="your-email" required><br>
-     </label>
-     <label for="your-message">
-       Your message to us (required): <input type="textbox" name="message" id="your-message" required><br>
-     </label>
+   <input class="contact-input" type="text" name="name" id="your-name"><br>
 
-     <button type="submit" value="Submit"> Talk to us! </button>
+     <label class="contact-label"  for="your-email">
+Email (required):
+     </label>
+             <input  class="contact-input" type="email" name="email" id="your-email" required><br>
+
+     <label class="contact-label"  for="your-message">
+        Message (required):
+     </label>
+    <textarea class="contact-input" rows="10" name="message" id="your-message" required></textarea>
+
+     <button class="submit-button" type="submit" value="Submit"> Talk to us! </button>
     </form>
 
     <p>Don't like forms, try the phone! </p>
