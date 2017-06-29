@@ -1,6 +1,11 @@
 
 *{
   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
 }
 
 body {
@@ -113,5 +118,6 @@ margin: 0;
 
 
 #contact {
-  background-color: #dfbdff;
+  background-color: #00819e;
+  color: #E5E7E9;
 }
