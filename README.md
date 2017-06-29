@@ -92,10 +92,8 @@ Specifically:
  - Rachael - Learned about:
    * css `font-weight:` can be normal; bold; or if you want it to be bolder 800; or even 900;. If you’re using Google Fonts, make sure you request the 700, 800 or 900 options for the bolder weights
    * to carry over styling from parent div, try `margin: inherit`; `padding: inherit`;
-   * to carry over styling from parent div, try `margin: inherit`; `padding: inherit`;
    * for a child with `position:relative` , the parent must be ‘positioned’: so the parent should have the tag `position:absolute`
    * to test on different screen sizes, try this http://cybercrab.com/screencheck/
-   * to test on different screen sizes, try this link
    * check the different pairs are on different branches
 
  - Yahia - Learned:
