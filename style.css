@@ -59,6 +59,11 @@ section {
 max-width: 90% ;
 }
 
+.pad {
+  margin-left: 1em;
+  margin-right: 1em;  
+}
+
 .faces {
   height: 100px;
   background-image: url(./pictures/faces.jpg);
