@@ -61,7 +61,7 @@ max-width: 90% ;
 
 .pad {
   margin-left: 1em;
-  margin-right: 1em;  
+  margin-right: 1em;
 }
 
 .faces {
@@ -116,7 +116,7 @@ nav {
 
 nav ul {
 display: flex ;
-justify-content: space-around;
+justify-content: center;
 padding: 0;
 margin: 0;
 
@@ -197,17 +197,30 @@ form {
     max-width: 90vw;
     overflow: auto;
 }
+
 @media only screen and (min-width: 600px )  {
   #contact {
     padding-left: 5rem;
   }
 
   form {
+    max-width: 450px;
+  }
+}
+
+
+@media only screen and (min-width: 650px )  {
+
+  .navbar__li {
+      font-size: 1rem;
+      padding: 1rem 2.4rem;
     max-width: 500px;
 }
+
   .contact-input{
     float: right;
     width: 300px;
+
   }
 }
 
