@@ -48,6 +48,32 @@ As a client with JavaScript disabled in their browser for security reasons
 so that I don't feel like I'm completely in the stone age.
 
 
+## How - Our Journey to (Almost) Completion
+
+1. We sketched out a wireframe for our website.  
+ As a team we agreed a rough layout and design.
+
+2. We created issues to describe what we wanted to include in our site.  
+   We tried to create issues that were independent of each other so that each
+   team could work on them without causing too many merge conflicts!
+
+3. Splitting into pairs we chose the most important issues to solve in order to
+   get a basic version of our site up and running.
+
+4. Once we had a basic version, we focussed more on details and design.  
+ We mostly followed two workflows where one half of a pair new a lot more about
+ a subject than the other we used pair programming (towards the end we found we ended up
+ working more independently due to the time pressure, with one person doing
+ more research while the other continued working on agreed tasks!)
+
+5. We aimed to design in a mobile-first way.  
+ In practice we did tend to think about larger screens first and then sort out
+ our media queries to work on smaller screens - but we did have mobile in mind
+ throughout rather than adding it in at the end.
+
+ 6. We created the site without Javascript with the idea of adding Javascript
+    features towards the end to ensure it would work well with Javascript
+    disabled.  
 
 
 ## Contributing
